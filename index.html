@@ -18,13 +18,13 @@
   <script src="./script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="CausoraBio home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 20.5A12 12 0 1 1 19.5 5v7A5 5 0 1 0 25 20.5z"/></svg>
-      <span>causorabio</span>
+      <span>CausoraBio</span>
     </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-i18n="menuLabel">Menu</button>
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
       <a href="#approach" data-i18n="navApproach">Our approach</a>
       <a href="#research" data-i18n="navResearch">Research</a>
@@ -40,8 +40,8 @@
       <div class="hero-copy reveal">
         <p class="eyebrow" data-i18n="eyebrow">AI FOR BIOMEDICAL RESEARCH</p>
         <h1><span data-i18n="heroOne">Understand disease.</span><br><em data-i18n="heroTwo">Discover new targets.</em></h1>
-        <p class="lede" data-i18n="heroBody">CausoraBio is an emerging research team focused on applying artificial intelligence to the study of disease mechanisms and the systematic identification of promising therapeutic targets.</p>
-        <a class="button" href="#approach"><span data-i18n="heroButton">How we approach research</span><span aria-hidden="true">↘</span></a>
+        <p class="lede" data-i18n="heroBody">CausoraBio is an interdisciplinary research team applying artificial intelligence to the study of disease mechanisms and the systematic identification of promising therapeutic targets.</p>
+        <a class="button" href="#approach"><span data-i18n="heroButton">Explore our research approach</span><span aria-hidden="true">↘</span></a>
       </div>
 
       <div class="network-wrap reveal" aria-label="Illustrative biological network">
@@ -58,9 +58,9 @@
           <circle class="target" cx="290" cy="248" r="13"/>
           <path class="target-line" d="M315 248H455V210"/>
           <circle class="target-small" cx="342" cy="248" r="6"/>
-          <text x="410" y="199">POTENTIAL TARGET</text>
+          <text x="410" y="199" data-i18n="targetLabel">POTENTIAL TARGET</text>
         </svg>
-        <p class="network-caption">EXPLORING CONNECTIONS IN BIOLOGY<br>ILLUSTRATIVE BIOLOGICAL NETWORK</p>
+        <p class="network-caption"><span data-i18n="networkCaptionOne">EXPLORING CONNECTIONS IN BIOLOGY</span><br><span data-i18n="networkCaptionTwo">ILLUSTRATIVE BIOLOGICAL NETWORK</span></p>
       </div>
     </section>
 
@@ -69,9 +69,9 @@
     </div>
 
     <section id="approach" class="approach section-shell section-pad">
-      <div class="section-index">01 / APPROACH</div>
+      <div class="section-index" data-i18n="approachIndex">01 / APPROACH</div>
       <div class="section-heading reveal">
-        <p class="eyebrow" data-i18n="approachEyebrow">01 / OUR APPROACH</p>
+        <p class="eyebrow" data-i18n="approachEyebrow">EVIDENCE-LED BIOLOGY</p>
         <h2 data-i18n="approachTitle">Start with the biology. Follow the evidence.</h2>
         <p class="section-lede" data-i18n="approachBody">We use AI to interrogate complex biological data and formulate hypotheses that can be tested experimentally. Our emphasis is on mechanistic interpretation, critical appraisal of evidence, and iterative learning from experimental results.</p>
       </div>
@@ -84,8 +84,8 @@
 
     <section class="workflow section-pad">
       <div class="section-shell">
-        <div class="section-index light">02 / RESEARCH PROCESS</div>
-        <div class="workflow-heading reveal"><p class="eyebrow light" data-i18n="workflowEyebrow">02 / HOW WE PLAN TO WORK</p><h2 data-i18n="workflowTitle">From characterizing disease to selecting decisive experiments.</h2></div>
+        <div class="section-index light" data-i18n="workflowIndex">02 / RESEARCH PROCESS</div>
+        <div class="workflow-heading reveal"><p class="eyebrow light" data-i18n="workflowEyebrow">ITERATIVE RESEARCH</p><h2 data-i18n="workflowTitle">From characterizing disease to selecting decisive experiments.</h2></div>
         <div class="workflow-grid">
           <article class="workflow-step reveal"><span>01</span><h3 data-i18n="workflowOneTitle">Define a focused question</h3><p data-i18n="workflowOneBody">Specify the disease question, relevant patient population, and biological system under investigation.</p></article>
           <article class="workflow-step reveal"><span>02</span><h3 data-i18n="workflowTwoTitle">Assemble and appraise evidence</h3><p data-i18n="workflowTwoBody">Integrate relevant datasets and literature while evaluating methodological quality, uncertainty, and discordant findings.</p></article>
@@ -97,9 +97,9 @@
     </section>
 
     <section id="research" class="research-focus section-shell section-pad">
-      <div class="section-index">03 / RESEARCH INTERESTS</div>
+      <div class="section-index" data-i18n="researchIndex">03 / RESEARCH INTERESTS</div>
       <div class="research-focus-grid">
-        <div class="section-heading reveal"><p class="eyebrow" data-i18n="researchEyebrow">03 / RESEARCH INTERESTS</p><h2 data-i18n="researchTitle">Questions we aim to investigate.</h2><p class="section-lede" data-i18n="researchBody">Our interests encompass disease biology, therapeutic target discovery, and the development of AI systems that support rigorous and reproducible biomedical research.</p></div>
+        <div class="section-heading reveal"><p class="eyebrow" data-i18n="researchEyebrow">AREAS OF INQUIRY</p><h2 data-i18n="researchTitle">Questions we aim to investigate.</h2><p class="section-lede" data-i18n="researchBody">Our interests encompass disease biology, therapeutic target discovery, and the development of AI systems that support rigorous and reproducible biomedical research.</p></div>
         <div class="focus-list reveal">
           <article><h3 data-i18n="focusOneTitle">Disease mechanisms</h3><p data-i18n="focusOneBody">Which alterations in genes, proteins, and cellular states contribute to disease, and through which interactions do their effects emerge?</p></article>
           <article><h3 data-i18n="focusTwoTitle">Therapeutic targets</h3><p data-i18n="focusTwoBody">Which components of a disease mechanism are amenable to intervention, and what evidentiary standard should support their prioritization?</p></article>
@@ -109,9 +109,9 @@
     </section>
 
     <section id="tools" class="tools section-shell section-pad">
-      <div class="section-index">04 / TOOLS</div>
+      <div class="section-index" data-i18n="toolsIndex">04 / TOOLS</div>
       <div class="tools-grid">
-        <div class="section-heading reveal"><p class="eyebrow" data-i18n="toolsEyebrow">04 / TOOLS</p><h2 data-i18n="toolsTitle">Three complementary systems for biomedical research.</h2><p class="section-lede" data-i18n="toolsBody">We are developing an integrated suite of research tools to organize evidence, investigate disease mechanisms, and structure subsequent analytical and experimental work.</p></div>
+        <div class="section-heading reveal"><p class="eyebrow" data-i18n="toolsEyebrow">RESEARCH INFRASTRUCTURE</p><h2 data-i18n="toolsTitle">Three complementary systems for biomedical research.</h2><p class="section-lede" data-i18n="toolsBody">We are developing an integrated suite of research tools to organize evidence, investigate disease mechanisms, and structure subsequent analytical and experimental work.</p></div>
         <div class="tool-list reveal">
           <article><span data-i18n="toolOneLabel">TARGET DISCOVERY</span><div><h3>CausoraBio Discovery</h3><p data-i18n="toolOneBody">Investigates disease biology and candidate targets by integrating genetic and multi-omic evidence, comparing mechanistic hypotheses, and supporting validation planning.</p><small data-i18n="toolOneFocus">Planned focus: mechanism analysis, target assessment, and validation planning.</small></div></article>
           <article><span data-i18n="toolTwoLabel">BIOMEDICAL EVIDENCE</span><div><h3>CausoraBio Atlas</h3><p data-i18n="toolTwoBody">Maps relationships among genes, proteins, pathways, diseases, and published findings while retaining the sources and context required for critical evaluation.</p><small data-i18n="toolTwoFocus">Planned focus: evidence retrieval, relationship mapping, and source traceability.</small></div></article>
@@ -122,9 +122,9 @@
     </section>
 
     <section id="team" class="team section-shell section-pad">
-      <div class="section-index">05 / TEAM</div>
+      <div class="section-index" data-i18n="teamIndex">05 / TEAM</div>
       <div class="team-heading reveal">
-        <p class="eyebrow" data-i18n="teamEyebrow">05 / TEAM</p>
+        <p class="eyebrow" data-i18n="teamEyebrow">INTERDISCIPLINARY TEAM</p>
         <h2 data-i18n="teamTitle">Our team</h2>
       </div>
       <div class="team-grid">
@@ -149,15 +149,16 @@
 
     <section id="collaborate" class="collaborate section-pad">
       <div class="section-shell collaborate-inner reveal">
-        <p class="eyebrow light" data-i18n="collabEyebrow">06 / COLLABORATION</p>
+        <div class="section-index light" data-i18n="collabIndex" style="border-color:#44726b;text-align:left;margin-bottom:4rem">06 / COLLABORATION</div>
+        <p class="eyebrow light" data-i18n="collabEyebrow">SCIENTIFIC EXCHANGE</p>
         <h2 data-i18n="collabTitle">Exploring the next research question.</h2>
         <p data-i18n="collabBody">As CausoraBio develops, we welcome scientific exchange with researchers in biology, artificial intelligence, and experimental science, and the identification of questions that may benefit from collaborative investigation.</p>
-        <p class="contact-note" data-i18n="contactNote">Contact information will be published as the team and research program develop.</p>
+        <p class="contact-note" data-i18n="contactNote">Official contact channels will be published as the research program develops.</p>
         <a class="button button-light" href="#research"><span data-i18n="collabButton">Explore our research interests</span><span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
-  <footer class="footer section-shell"><a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 20.5A12 12 0 1 1 19.5 5v7A5 5 0 1 0 25 20.5z"/></svg><span>causorabio</span></a><p>© <span id="year"></span> CausoraBio</p><span data-i18n="footerLine">Understanding disease. Opening new possibilities.</span><span data-i18n="footerStatus">Biomedical AI research team</span><a href="#top" data-i18n="backTop">Back to top ↑</a></footer>
+  <footer class="footer section-shell"><a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 20.5A12 12 0 1 1 19.5 5v7A5 5 0 1 0 25 20.5z"/></svg><span>CausoraBio</span></a><p>© <span id="year"></span> CausoraBio</p><span data-i18n="footerLine">Understanding disease. Opening new possibilities.</span><span data-i18n="footerStatus">Biomedical AI research team</span><a href="#top" data-i18n="backTop">Back to top ↑</a></footer>
 </body>
 </html>
